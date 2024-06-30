@@ -25,8 +25,8 @@ flutter run
 ## Screenshots
 <p align="center">
   <img src="screenshots/home_page.png" alt="Home Screen" width="300"/>
-  <img src="screenshots/deatail_page.png" alt="Movie Details Screen" width="300"/>
   <img src="screenshots/search_page.png" alt="Movie Search Screen" width="300"/>
+  <img src="screenshots/deatail_page.png" alt="Movie Details Screen" width="300"/>
 </p>
 
 
