@@ -66,19 +66,19 @@ class MovieDetails extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 10),
-                    Row(
+                    Wrap(
                       children: [
                         const Text(
                           'Genres:',
                           style: AppTextStyle.largeBlack,
                         ),
-                        Row(
+                        Wrap(
                           children: movie.genres
                               .map((Genre genre) => Padding(
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 5),
                                     child: Text(
-                                      genre.name,
+                                      '${genre.name},',
                                     ),
                                   ))
                               .toList(),
