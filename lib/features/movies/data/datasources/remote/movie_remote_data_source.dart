@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:kinopoisk_app/core/constants/constants.dart';
 import 'package:kinopoisk_app/features/movies/data/models/movie_model.dart';
 
@@ -7,7 +8,7 @@ class MovieRemoteDataSource {
   MovieRemoteDataSource({required this.client});
   final Options options = Options(
     headers: {
-      'X-API-KEY': AppConsts.apiKey,
+      'X-API-KEY': dotenv.env['X_API_KEY'],
     },
   );
 
