@@ -23,8 +23,11 @@ Use the following command to run app:
 flutter run
 ```
 ## Screenshots
-
-![Screenshot_1719744340](https://github.com/AktanK13/kinopoisk/assets/103981549/acaf22f2-a302-4fd0-a500-6190782761ef)![Screenshot_1719744002](https://github.com/AktanK13/kinopoisk/assets/103981549/ff5dcd6c-2f4c-406e-ac98-843b7967c41f)![Screenshot_1719743976](https://github.com/AktanK13/kinopoisk/assets/103981549/acca2d98-9d75-44bd-aa73-79382af1e75e)
+<p align="center">
+  <img src="screenshots/home_page.png" alt="Home Screen" width="300"/>
+  <img src="screenshots/deatail_page.png" alt="Movie Details Screen" width="300"/>
+  <img src="screenshots/search_page.png" alt="Movie Search Screen" width="300"/>
+</p>
 
 
 
